@@ -6,23 +6,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6667af78-2fdb-4f5f-b6dc-7340e8056bcf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store.APIs.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store.APIs.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/Store.S_02.APIs.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/Store.S_02.APIs.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.APIs/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.APIs/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/Store.S_02.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/Store.S_02.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Core/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/Debug/net8.0/Store.S_02.Repository.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/Store.S_02.Repository.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/Store.S_02.Repository.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Repository/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Repository/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/Store.S_02.Service.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/Store.S_02.Service.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.S_02.Service/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Store.S_02.Service/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -34,9 +60,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2n40y3YavgwRFbs2ek6OwYRn1uq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +71,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "API03",
+    "last_opened_file_path": "/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -92,6 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728217291770</updated>
       <workItem from="1728217292977" duration="37000" />
+      <workItem from="1728217598812" duration="140000" />
     </task>
     <servers />
   </component>
