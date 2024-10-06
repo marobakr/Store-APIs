@@ -1,0 +1,12 @@
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/bin/Debug/net8.0/Store.S_02.Core.deps.json
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/bin/Debug/net8.0/Store.S_02.Core.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/bin/Debug/net8.0/Store.S_02.Core.pdb
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.AssemblyInfoInputs.cache
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.AssemblyInfo.cs
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.csproj.CoreCompileInputs.cache
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/refint/Store.S_02.Core.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.pdb
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/ref/Store.S_02.Core.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/obj/Debug/net8.0/Store.S_02.Core.csproj.AssemblyReference.cache

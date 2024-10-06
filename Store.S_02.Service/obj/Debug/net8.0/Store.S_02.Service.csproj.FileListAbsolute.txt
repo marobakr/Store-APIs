@@ -1,0 +1,17 @@
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/bin/Debug/net8.0/Store.S_02.Service.deps.json
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/bin/Debug/net8.0/Store.S_02.Service.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/bin/Debug/net8.0/Store.S_02.Service.pdb
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/bin/Debug/net8.0/Store.S_02.Core.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/bin/Debug/net8.0/Store.S_02.Repository.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/bin/Debug/net8.0/Store.S_02.Repository.pdb
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/bin/Debug/net8.0/Store.S_02.Core.pdb
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.csproj.AssemblyReference.cache
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.GeneratedMSBuildEditorConfig.editorconfig
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.AssemblyInfoInputs.cache
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.AssemblyInfo.cs
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.csproj.CoreCompileInputs.cache
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_.A6B02DF4.Up2Date
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/refint/Store.S_02.Service.dll
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/Store.S_02.Service.pdb
+/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Service/obj/Debug/net8.0/ref/Store.S_02.Service.dll
