@@ -10,16 +10,16 @@ namespace Store.S_02.APIs.Controllers
     {
         private readonly IProductService _productService;
 
-        public ProductsController( IProductService productService)
+        public ProductsController(IProductService productService)
         {
             _productService = productService;
         }
 
         /* === === === === === === Get: BaseUrl/api/Products === === === === === ===  */
-        [HttpGet] 
-        public async Task<IActionResult> GetAllProducts()
+        [HttpGet]
+        public async Task<IActionResult> GetAllProducts([FromQuery] string? sort)
         {
-            var products = await _productService.GetAllProdcutsAsync();
+            var products = await _productService.GetAllProdcutsAsync(sort);
             return Ok(products); //* return 200 status codes
         }
 
@@ -30,25 +30,22 @@ namespace Store.S_02.APIs.Controllers
             var brands = await _productService.GetAllBrandsAsync();
             return Ok(brands);
         }
-        
+
         /* === === === === === === Get: BaseUrl/api/Products/types === === === === === ===  */
         [HttpGet("types")]
-        public async Task<IActionResult> GetAllTypes() {
+        public async Task<IActionResult> GetAllTypes()
+        {
             var types = await _productService.GetAllTypesAsync();
             return Ok(types);
         }
-        
+
         /* === === === === === === Get: BaseUrl/api/Products:id === === === === === ===  */
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductById(int? id)
         {
-            if(id is null) return BadRequest("Id is null");
+            if (id is null) return BadRequest("Id is null");
             var product = await _productService.GetProductById(id.Value);
             return Ok(product);
         }
-
-        
-
-
     }
 }
