@@ -1,4 +1,5 @@
 using Store.S_02.Core.Entities;
+using Store.S_02.Core.Specifications;
 
 namespace Store.S_02.Core.Services.Contract;
 
@@ -6,6 +7,8 @@ public interface IGenericsRepository<TEntity,TKey> where TEntity : BaseEntities<
 {
     Task<IEnumerable<TEntity>> GetAllAsync();
     Task<TEntity> GetAsync(int id);
+    Task<IEnumerable<TEntity>> GetAllWithSpecAsync(ISpecifications<TEntity , TKey> specification);
+    Task<TEntity> GetWithSpecAsync(ISpecifications<TEntity , TKey> specification);
     Task AddAsync(TEntity entity);
     void UpdateAsync(TEntity entity);
     void DeleteAsync(TEntity entity);

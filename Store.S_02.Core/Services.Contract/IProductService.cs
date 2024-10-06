@@ -5,7 +5,7 @@ namespace Store.S_02.Core.Services.Contract;
 
 public interface IProductService
 {
-   Task<IEnumerable<ProductDto>> GetAllProdcutsAsync(string? sort);
+   Task<IEnumerable<ProductDto>> GetAllProdcutsAsync();
    Task<IEnumerable<TypeBrandDto>> GetAllTypesAsync();
    Task<IEnumerable<TypeBrandDto>> GetAllBrandsAsync();
    Task<ProductDto> GetProductById(int id);
