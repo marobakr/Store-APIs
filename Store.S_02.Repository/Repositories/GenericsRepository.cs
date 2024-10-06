@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Store.S_02.Core.Entities;
 using Store.S_02.Core.Services.Contract;
+using Store.S_02.Core.Specifications;
 using Store.S_02.Repository.Data.Contexts;
 
 namespace Store.S_02.Repository.Repositories;
@@ -38,6 +39,19 @@ public class GenericsRepository<TEntity, TKey> : IGenericsRepository<TEntity, TK
         return  await _context.Set<TEntity>().FindAsync(id);
     }
 
+    /* === === === === === ===  GetAllWithSpecificationAsync  === === === === === === */
+    public async Task<IEnumerable<TEntity>> GetAllWithSpecAsync(ISpecifications<TEntity, TKey> specification)
+    {
+      return  await ApplySpecification(specification).ToListAsync();
+    }
+    /* === === === === === ===  GetWithSpecificationAsync  === === === === === === */
+
+    public async Task<TEntity> GetWithSpecAsync(ISpecifications<TEntity, TKey> specification)
+    {
+        return  await ApplySpecification(specification).FirstOrDefaultAsync();
+
+    }
+
     /* === === === === === ===  AddAsync  === === === === === === */
     public async Task AddAsync(TEntity entity)
     {
@@ -54,5 +68,12 @@ public class GenericsRepository<TEntity, TKey> : IGenericsRepository<TEntity, TK
     public void DeleteAsync(TEntity entity)
     {
         _context.Remove(entity);
+    }
+
+    /* === === === === === ===  ApplySpecification [Improve Code]  === === === === === === */
+
+    private IQueryable<TEntity> ApplySpecification(ISpecifications<TEntity, TKey> specification)
+    {
+        return SpecificationsEvaluator<TEntity, TKey>.GetQuery(_context.Set<TEntity>(), specification);
     }
 }
