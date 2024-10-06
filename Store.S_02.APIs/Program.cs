@@ -31,7 +31,7 @@ public class Program
         /* === === === === === Allow Dependency Injection === === === === ===*/
         builder.Services.AddScoped(typeof(IProductService), typeof(ProductsServices));
         builder.Services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
-        builder.Services.AddAutoMapper(M => M.AddProfile(new ProductsProfile()));
+        builder.Services.AddAutoMapper(M => M.AddProfile(new ProductsProfile(builder.Configuration)));
         
         var app = builder.Build();
 
@@ -55,6 +55,9 @@ public class Program
            }
            
         }
+
+        /* === === === === === Enable Static Files === === === === === */
+        app.UseStaticFiles();  
         
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
