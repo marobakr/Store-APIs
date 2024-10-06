@@ -19,8 +19,4 @@
       <ProjectReference Include="..\Store.S_02.Service\Store.S_02.Service.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="wwwroot\" />
-    </ItemGroup>
-
 </Project>
