@@ -2803,11 +2803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Repository/Store.S_02.Repository.csproj",
+      "projectUniqueName": "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Repository/Store.S_02.Repository.csproj",
       "projectName": "Store.S_02.Repository",
-      "projectPath": "/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Repository/Store.S_02.Repository.csproj",
+      "projectPath": "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Repository/Store.S_02.Repository.csproj",
       "packagesPath": "/home/marwanhero/.nuget/packages/",
-      "outputPath": "/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Repository/obj/",
+      "outputPath": "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Repository/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/marwanhero/.nuget/NuGet/NuGet.Config"
@@ -2822,8 +2822,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/Store.S_02.Core.csproj": {
-              "projectPath": "/home/marwanhero/Desktop/Web_2024/C#_Demos_Route/Web_APIs/Store.S_02/Store.S_02.Core/Store.S_02.Core.csproj"
+            "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Core/Store.S_02.Core.csproj": {
+              "projectPath": "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Core/Store.S_02.Core.csproj"
             }
           }
         }
