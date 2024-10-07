@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Core/Store.S_02.Core.csproj": {}
+    "/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.Core/Store.S_02.Core.csproj": {}
   },
   "projects": {
-    "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Core/Store.S_02.Core.csproj": {
+    "/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.Core/Store.S_02.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Core/Store.S_02.Core.csproj",
+        "projectUniqueName": "/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.Core/Store.S_02.Core.csproj",
         "projectName": "Store.S_02.Core",
-        "projectPath": "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Core/Store.S_02.Core.csproj",
+        "projectPath": "/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.Core/Store.S_02.Core.csproj",
         "packagesPath": "/home/marwanhero/.nuget/packages/",
-        "outputPath": "/home/marwanhero/Desktop/Web_2024/Store.APIs/Store.S_02.Core/obj/",
+        "outputPath": "/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marwanhero/.nuget/NuGet/NuGet.Config"

@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Store.S_02.Core.Dtos.Products;
+using Store.S_02.Core.Helper;
 using Store.S_02.Core.Services.Contract;
+using Store.S_02.Core.Specifications.Products;
 
 namespace Store.S_02.APIs.Controllers
 {
@@ -17,9 +20,9 @@ namespace Store.S_02.APIs.Controllers
 
         /* === === === === === === Get: BaseUrl/api/Products === === === === === ===  */
         [HttpGet] 
-        public async Task<IActionResult> GetAllProducts()
+        public async Task<IActionResult> GetAllProducts([FromQuery] ProductSpecParams productSpecParams)
         {
-            var products = await _productService.GetAllProdcutsAsync();
+            var products = await _productService.GetAllProdcutsAsync(productSpecParams);
             return Ok(products); //* return 200 status codes
         }
 
