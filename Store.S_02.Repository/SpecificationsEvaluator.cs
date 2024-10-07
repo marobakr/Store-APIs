@@ -15,6 +15,20 @@ public class SpecificationsEvaluator<TEntity, TKey> where TEntity : BaseEntities
             query = query.Where(specification.Criteria);
         }
 
+        if (specification.OrderBy is not null)
+        {
+            query =  query.OrderBy(specification.OrderBy);
+        }
+        if (specification.OrderByDesc is not null) 
+        {
+            query =  query.OrderByDescending(specification.OrderByDesc);
+        }
+
+        if (specification.IsPaginationsInable)
+        {
+            query = query.Skip(specification.Skip).Take(specification.Take);
+        }
+
         query = specification.Include.Aggregate(query, (currentQuery, includeQuery) => currentQuery.Include(includeQuery));
 
         return query;

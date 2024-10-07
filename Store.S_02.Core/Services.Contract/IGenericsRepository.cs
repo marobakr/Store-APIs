@@ -10,7 +10,9 @@ public interface IGenericsRepository<TEntity,TKey> where TEntity : BaseEntities<
     Task<IEnumerable<TEntity>> GetAllWithSpecAsync(ISpecifications<TEntity , TKey> specification);
     Task<TEntity> GetWithSpecAsync(ISpecifications<TEntity , TKey> specification);
     Task AddAsync(TEntity entity);
+    Task<int> GetCountAsync(ISpecifications<TEntity, TKey> specification); 
     void UpdateAsync(TEntity entity);
     void DeleteAsync(TEntity entity);
+    
     
 }

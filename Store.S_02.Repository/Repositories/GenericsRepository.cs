@@ -20,7 +20,7 @@ public class GenericsRepository<TEntity, TKey> : IGenericsRepository<TEntity, TK
     {
         if (typeof(TEntity) == typeof(Products))
         {
-            return (IEnumerable<TEntity>)await _context.Products.Include(P => P.Brand).Include(P => P.Type)
+            return (IEnumerable<TEntity>)await _context.Products.OrderBy(P => P.Name).Include(P => P.Brand).Include(P => P.Type)
                 .ToListAsync();
         }
 
@@ -57,7 +57,12 @@ public class GenericsRepository<TEntity, TKey> : IGenericsRepository<TEntity, TK
     {
         await _context.Set<TEntity>().AddAsync(entity);
     }
-    
+
+    public Task<int> GetCountAsync(ISpecifications<TEntity, TKey> specification)
+    {
+        return ApplySpecification(specification).CountAsync();
+    }
+
     /* === === === === === ===  UpdateAsync  === === === === === === */
     public void UpdateAsync(TEntity entity)
     {
