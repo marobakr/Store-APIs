@@ -3,7 +3,7 @@ using Store.S_02.APIs.Error;
 
 namespace Store.S_02.APIs.Controllers;
 
-[Route("error/[code]")]
+[Route("error/{code}")]
 [ApiController]
 [ApiExplorerSettings(IgnoreApi = true)]
 

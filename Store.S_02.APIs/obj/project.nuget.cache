@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QjCESUToCwQ=",
+  "dgSpecHash": "JqQBm7a0lqc=",
   "success": true,
   "projectFilePath": "/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/Store.S_02.APIs.csproj",
   "expectedPackageFiles": [
@@ -127,6 +127,8 @@
     "/home/marwanhero/.nuget/packages/nuget.projectmodel/6.11.0/nuget.projectmodel.6.11.0.nupkg.sha512",
     "/home/marwanhero/.nuget/packages/nuget.protocol/6.11.0/nuget.protocol.6.11.0.nupkg.sha512",
     "/home/marwanhero/.nuget/packages/nuget.versioning/6.11.0/nuget.versioning.6.11.0.nupkg.sha512",
+    "/home/marwanhero/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/home/marwanhero/.nuget/packages/stackexchange.redis/2.8.16/stackexchange.redis.2.8.16.nupkg.sha512",
     "/home/marwanhero/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/home/marwanhero/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/home/marwanhero/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
