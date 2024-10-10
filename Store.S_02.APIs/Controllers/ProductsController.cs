@@ -7,9 +7,8 @@ using Store.S_02.Core.Specifications.Products;
 
 namespace Store.S_02.APIs.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductsController : ControllerBase
+ 
+    public class ProductsController : BaseApiController
     {
         private readonly IProductService _productService;
 

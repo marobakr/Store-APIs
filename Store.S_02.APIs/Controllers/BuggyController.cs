@@ -4,9 +4,8 @@ using Store.S_02.Repository.Data.Contexts;
 
 namespace Store.S_02.APIs.Controllers;
 
-[Route("api/[controller]")]
-[ApiController]
-public class BuggyController : ControllerBase
+
+public class BuggyController : BaseApiController
 {
     private readonly StoreDbContext _context;
 
