@@ -1,12 +1,15 @@
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 using Store.S_02.APIs.Error;
 using Store.S_02.Core;
+using Store.S_02.Core.Mapping.Basket;
 using Store.S_02.Core.Mapping.Products;
 using Store.S_02.Core.Services.Contract;
 using Store.S_02.Repository;
 using Store.S_02.Repository.Data.Contexts;
+using Store.S_02.Repository.Repositories;
 using Store.S_02.Service.Services.Products;
 
 namespace Store.S_02.APIs.Helper;
@@ -21,6 +24,7 @@ public static class DependancyInjection
         services.AddUserDefinedService();
         services.AddAutoMapperService(configuration);
         services.ConfigrationsInvalidModelStateResponseServices();
+        services.AddRedisService(configuration);
         
         return services;
     }
@@ -58,6 +62,8 @@ public static class DependancyInjection
     {
         services.AddScoped(typeof(IProductService), typeof(ProductsServices));
         services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+        services.AddScoped(typeof(IBasketRepositories), typeof(BasketRepository));
+
         
         return services;
     }
@@ -67,6 +73,8 @@ public static class DependancyInjection
     private static IServiceCollection AddAutoMapperService(this IServiceCollection services,IConfiguration configuration)
     {
         services.AddAutoMapper(M => M.AddProfile(new ProductsProfile())); // configuration
+        services.AddAutoMapper(M => M.AddProfile(new BasketProfile())); // configuration
+
         return services;
     }
 
@@ -87,6 +95,17 @@ public static class DependancyInjection
                 };
                 return new BadRequestObjectResult(response);
             };
+        });
+        return services;
+    }
+
+    private static IServiceCollection AddRedisService(this IServiceCollection services, IConfiguration configuration)
+    {
+
+        services.AddSingleton<IConnectionMultiplexer>((ServiceProvider) =>
+        {
+         var connection =   configuration.GetConnectionString("Redis");
+         return ConnectionMultiplexer.Connect(connection);
         });
         return services;
     }

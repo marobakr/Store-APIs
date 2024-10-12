@@ -777,3 +777,5 @@
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.pdb
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/obj/Debug/net8.0/Store.S_02.APIs.genruntimeconfig.cache
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/obj/Debug/net8.0/ref/Store.S_02.APIs.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/StackExchange.Redis.dll
