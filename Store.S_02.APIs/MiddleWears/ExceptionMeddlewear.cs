@@ -33,8 +33,10 @@ public class ExceptionMiddlewear
                 var response = _env.IsDevelopment()
                     ? new ApisExeptionResponse(StatusCodes.Status500InternalServerError, e.StackTrace.ToString(), e.Message)
                     : new ApisExeptionResponse(StatusCodes.Status500InternalServerError);
+                var configure = new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
 
-                var json = JsonSerializer.Serialize(response);
+
+                var json = JsonSerializer.Serialize(response,configure);
          
                 await context.Response.WriteAsync(json);
             }

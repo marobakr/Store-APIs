@@ -1,7 +1,11 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Store.S_02.APIs.MiddleWears;
+using Store.S_02.Core.Entities.Identity;
 using Store.S_02.Repository.Data;
 using Store.S_02.Repository.Data.Contexts;
+using Store.S_02.Repository.Identity;
+using Store.S_02.Repository.Identity.Contexts;
 
 namespace Store.S_02.APIs.Helper;
 
@@ -14,12 +18,18 @@ static class ConfigureMiddleware
         {
             var services = scope.ServiceProvider;
             var context = services.GetRequiredService<StoreDbContext>(); /* Create Context Instance */
+            var IdentityDb = services.GetRequiredService<StoreIdentityDbContext>(); /* Create Context Instance */    
+            var userManger = services.GetRequiredService<UserManager<AppUser>>(); /* Create Context Instance */
+
             var loggerFactory = services.GetRequiredService<ILoggerFactory>();
 
             try
             {
                 await context.Database.MigrateAsync(); /* Apply Migrations When the Application Starts */
                 await StoreDbContextSeed.SeedAsync(context); /* Seed Data to Database */
+                await IdentityDb.Database.MigrateAsync();
+                await StoreIdentityDbContextSeed.SeedAppUserAsync(userManger);
+
             }
             catch (Exception e)
             {

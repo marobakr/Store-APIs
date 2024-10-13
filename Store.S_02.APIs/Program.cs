@@ -10,6 +10,7 @@ using Store.S_02.Core.Services.Contract;
 using Store.S_02.Repository;
 using Store.S_02.Repository.Data;
 using Store.S_02.Repository.Data.Contexts;
+using Store.S_02.Repository.Identity;
 using Store.S_02.Service.Services.Products;
 
 namespace Store.S_02.APIs;
@@ -26,7 +27,6 @@ public class Program
         var app = builder.Build();
 
        await app.ConfigureMiddlewaresAsync();
-        
         app.Run();
 
     }
