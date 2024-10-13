@@ -779,3 +779,9 @@
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/obj/Debug/net8.0/ref/Store.S_02.APIs.dll
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/StackExchange.Redis.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.Extensions.Options.dll

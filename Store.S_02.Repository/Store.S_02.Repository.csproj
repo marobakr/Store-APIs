@@ -14,4 +14,9 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Identity\Confgurations\" />
+      <Folder Include="Identity\DataSeed\" />
+    </ItemGroup>
+
 </Project>
