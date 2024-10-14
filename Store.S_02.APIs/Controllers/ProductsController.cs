@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Store.S_02.APIs.Attributes;
@@ -23,6 +24,7 @@ namespace Store.S_02.APIs.Controllers
         [ProducesResponseType(typeof(PaginationsResponse<ProductDto>),StatusCodes.Status200OK)]
         [HttpGet] 
         [Cached(100)]
+        [Authorize]
         public async Task<ActionResult <PaginationsResponse<ProductDto>> > GetAllProducts([FromQuery] ProductSpecParams productSpecParams)
         {
             var products = await _productService.GetAllProdcutsAsync(productSpecParams);

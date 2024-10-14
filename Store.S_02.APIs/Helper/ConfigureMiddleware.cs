@@ -54,7 +54,7 @@ static class ConfigureMiddleware
         app.UseHttpsRedirection();// Redirect HTTP to HTTPS
 
         app.UseAuthorization();// Use Authorization
-
+        app.UseAuthentication();// Use Authentication
 
         app.MapControllers();// Map Controllers
 
