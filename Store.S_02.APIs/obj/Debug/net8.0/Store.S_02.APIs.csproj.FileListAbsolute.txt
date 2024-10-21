@@ -785,3 +785,4 @@
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/marwanhero/Desktop/Web_2024/Store-APIs/Store.S_02.APIs/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
